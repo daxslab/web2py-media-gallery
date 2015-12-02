@@ -1,0 +1,40 @@
+div.item {
+    display: inline-block;
+    min-width: 104px;
+    height: 126px;
+    border: 1px solid gray;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 3px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+div.item:hover {
+    background: #eeeed5;
+}
+
+div.item span.delete {
+    background: white;
+    float: right;
+    padding: 2px;
+    border: 1px solid gray;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: -3px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+div.item span.delete:hover {
+    background: #FF7374;
+    color: white;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    border: 1px solid gray;
+}

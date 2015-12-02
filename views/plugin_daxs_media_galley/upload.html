@@ -1,0 +1,9 @@
+{{
+    response.files.append(URL(r=request,c='static',f='plugin_daxs_media_galley/css/browse.css'))
+    response.files.append(URL(r=request,c='static',f='plugin_daxs_media_galley/js/browse.js'))
+}}
+{{extend 'layout.html'}}
+
+{{=form}}
+
+{{=LOAD('plugin_daxs_media_galley', 'browse', ajax=True)}}
